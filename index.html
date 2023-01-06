@@ -86,7 +86,7 @@
 
     var socket = io("wss://socket.rpp.dev2uit.ru",
         {
-            transports: ["polling"],
+            transports: ["polling", "websocket"],
             autoConnect: false
         });
 
